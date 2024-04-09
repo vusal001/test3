@@ -1,0 +1,32 @@
+
+.flex-body{
+    background-color: aquamarine;
+    padding: 10px;
+    height: 700px;
+
+
+    display: flex;
+    
+    flex-direction: row; /* column olduqu zaman */
+    justify-content: flex-end; /* x oxu istiqametinde yerini teyin edir */
+    align-items: flex-start; /* y oxu istiqametinde yerini teyin edir */
+
+}
+
+.flex-item{
+    
+    height: 150px;
+    border: 2px black solid;
+   
+    margin-right: auto;
+   
+   flex-basis: 200px;
+}
+
+
+#flexitem2{
+    order: 4 !important;
+    
+
+}
+

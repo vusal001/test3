@@ -1,0 +1,136 @@
+
+.menu-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    padding: 15px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+}
+
+.menyu-item{
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+
+
+.site-body{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+
+.categoty{
+    width: 35%;
+    background-color: brown;
+    height: 270px;
+
+}
+.cat-item{
+    padding: 15px;
+    border: 1px white solid;
+    color: white;
+    font-size: 20px;
+}
+
+.slider{
+    width: 60%;
+    height: 430px;
+    background-color: red;
+    background-image: url('imgs/111.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.news-body{
+    padding: 30px;
+    margin-top: 20px;
+   
+    display: flex;
+    border: 1px black solid;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+}
+/* justify-content: center;  x oxu istiqametinde duzulus */
+/* align-items: end; y oxu istiqametinde duzulus */
+.items_cont{
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+    margin-top: 20px;
+    border: 1px black solid;
+    background-color: bisque;
+    height: 400px;
+}
+
+
+.cont_item{
+    width: 150px;
+    height: 50px;
+    border: 2px red solid;
+}
+
+
+.news-box{
+    width: 280px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(219, 222, 225);
+}
+
+.news-image{
+    height: 180px;
+    background-image: url('imgs/111.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.news-desc{
+    color: black;
+    height: 70px;
+}
+
+.header-text{
+    text-align: center;
+}
+
+.header-author{
+    font-size: 10px;
+}
+
+.header-title{
+    font-size: 25px;
+}
+
+
+.news-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
